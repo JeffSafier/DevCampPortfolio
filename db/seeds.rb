@@ -25,8 +25,8 @@ end
     title: "Portfolio #{portfolio}",
     subtitle: "My great service",
     body: "body",
-    thumbnail_image: "http://placehold.it/350x200",
-    main_image: "http://placehold.it/600x400"
+    thumbnail_image: "http://placehold.it/350x200.jpg",
+    main_image: "http://placehold.it/600x400.jpg"
   )
 end
 
