@@ -1,4 +1,4 @@
-; true<h1> Create a New Protfolio </h1>
+<h1> Create a New Portfolio</h1>
 <%= form_with(model: @portfolio, local: true ) do |form| %>
   <% if @portfolio.errors.any? %>
     <div id="error_explanation">
@@ -26,4 +26,9 @@
     <%= form.label :body %>
     <%= form.text_area :body %>
   </div>
+
+   <div class="actions">
+    <%= form.submit %>
+  </div>
+
 <% end %>
